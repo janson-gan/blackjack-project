@@ -5,8 +5,8 @@ This is a simple command-line Blackjack game implemented in Python. The project 
 
 ## 📂 Project Structure
 
-* **[task/main.py](https://github.com/janson-gan/blackjack-project/tree/main/task): The main script containing the game logic.
-* **[task/art.py](https://github.com/janson-gan/blackjack-project/tree/main/task): Provides ASCII art (logo) for the game.
+* [task/main.py](https://github.com/janson-gan/blackjack-project/tree/main/task): The main script containing the game logic.
+* [task/art.py](https://github.com/janson-gan/blackjack-project/tree/main/task): Provides ASCII art (logo) for the game.
 
 ## 🃏 Game Rules Implemented
 
@@ -41,11 +41,18 @@ This is a simple command-line Blackjack game implemented in Python. The project 
 
 ## ⚠️ Challenges
 1. Detecting player and dealer cards as Blackjack (Ace and 10 value card)
-   - Solution: Implement a function to check if the initial two cards contain an Ace (11) and a 10 value card and flag it as Blackjack.
+ - Solution: Implement a function to check if the initial two cards contain an Ace (11) and a 10 value card and flag it as Blackjack.
 2. Handling game continuation if both player and dealer get Blackjack.
-   - Solution: Add logic to detect simultaneous Blackjacks and decide the outcome (e.g. tie) before proceeding.
+ - Solution: Add logic to detect simultaneous Blackjacks and decide the outcome (e.g. tie) before proceeding.
 3. Game keep restarting after player busts(forgot to add ```game_start = 'n'```)
-   - Solution: Ensure the game state variable ```game_start``` is reset after a bust to allow a new game to start cleanly.
+ - Solution: Ensure the game state variable ```game_start``` is reset after a bust to allow a new game to start cleanly.
 4. Too many indentation due to ```while loop``` and ```if-else``` statement causing confusion.
-   - Solution: Use [thonny](https://thonny.org/) debugging tool to monitor loop iterations and validate the logic accordingly.
+ - Solution: Use [thonny](https://thonny.org/) debugging tool to monitor loop iterations and validate the logic accordingly.
+  
+## 📌 Future Improvements
+- Add user input validation to prevent bugs and improve game robustness.
+- Add multiple player and accumulative points system for more entertaining gameplay.
+
+## 👨‍💻 Author
+Created by Janson as part of a Python learning journey.
 
