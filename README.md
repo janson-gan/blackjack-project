@@ -5,8 +5,8 @@ This is a simple command-line Blackjack game implemented in Python. The project 
 
 ## 📂 Project Structure
 
-* **[task/main.py]: The main script containing the game logic.
-* **[task/art.py]: Provides ASCII art (logo) for the game.
+* **[task/main.py](): The main script containing the game logic.
+* **[task/art.py](): Provides ASCII art (logo) for the game.
 
 ## 🃏 Game Rules Implemented
 
